@@ -67,7 +67,8 @@ struct ContentView: View {
     @State private var selectedSeason = ""
     @State private var selectedTeam: Team = Team(abbreviation: "", name: "")
     @State private var selectedFilter = ""
-    @State private var isLoading = true
+    @State private var isLoading = false
+    @State private var linkIsActive = false
     @State private var statistics = StatisticsModel(
         playerName: "",
         position: "",
@@ -84,7 +85,6 @@ struct ContentView: View {
         team: "",
         season: -1
     )
-    @State private var linkIsActive = false
     
     var body: some View {
         NavigationView {
@@ -158,6 +158,7 @@ struct ContentView: View {
     
     func fetchSeasonStatistics() {
         Task {
+            isLoading = true
             await WebApiRequest.fetchStatistics(season: selectedSeason, team: selectedTeam.abbreviation)
             // mäppää API-vastaus esitettävään StatisticsModel-muotoon
             let mappedStatistics = mapStatisticsViewModel()
@@ -166,13 +167,12 @@ struct ContentView: View {
             if(filteredStatistics != nil) {
                 // aseta filtteröidyt tilastot tilamuuttujaan
                 setFilteredstatisticsToStateValiable(filteredStatistics: filteredStatistics!)
-                isLoading = false
                 print("stats: \(String(describing: filteredStatistics))")
             }
             else {
-                isLoading = false
                 print("Tilastoja ei löynyt!")
             }
+            isLoading = false
         }  
     }
     

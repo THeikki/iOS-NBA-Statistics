@@ -97,7 +97,7 @@ struct StatisticsView_Previews: PreviewProvider {
         team: "",
         season: -1
     )
-    static var isLoading = true
+    static var isLoading = false
     static var previews: some View {
         StatisticsView(statistics: statistics, isLoading: isLoading)
     }
