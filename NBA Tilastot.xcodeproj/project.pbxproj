@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D57146AB2ED8A3C000EB2324 /* NBA_TilastotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57146AA2ED8A3C000EB2324 /* NBA_TilastotApp.swift */; };
+		D57146AD2ED8A3C000EB2324 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57146AC2ED8A3C000EB2324 /* ContentView.swift */; };
+		D57146AF2ED8A3C200EB2324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57146AE2ED8A3C200EB2324 /* Assets.xcassets */; };
+		D57146B22ED8A3C200EB2324 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57146B12ED8A3C200EB2324 /* Preview Assets.xcassets */; };
+		D57146B92ED9CC3000EB2324 /* WebApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57146B82ED9CC3000EB2324 /* WebApiRequest.swift */; };
+		D57146BB2ED9D17D00EB2324 /* StatisticsDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57146BA2ED9D17D00EB2324 /* StatisticsDto.swift */; };
+		D57146BE2EDD6E9A00EB2324 /* StatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57146BD2EDD6E9A00EB2324 /* StatisticsViewModel.swift */; };
+		D59F7E072EDED1F4009A7D72 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59F7E062EDED1F4009A7D72 /* StatisticsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D57146A72ED8A3C000EB2324 /* NBA Tilastot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Tilastot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57146AA2ED8A3C000EB2324 /* NBA_TilastotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBA_TilastotApp.swift; sourceTree = "<group>"; };
+		D57146AC2ED8A3C000EB2324 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D57146AE2ED8A3C200EB2324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D57146B12ED8A3C200EB2324 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D57146B82ED9CC3000EB2324 /* WebApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebApiRequest.swift; sourceTree = "<group>"; };
+		D57146BA2ED9D17D00EB2324 /* StatisticsDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsDto.swift; sourceTree = "<group>"; };
+		D57146BD2EDD6E9A00EB2324 /* StatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewModel.swift; sourceTree = "<group>"; };
+		D59F7E062EDED1F4009A7D72 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D57146A42ED8A3C000EB2324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D571469E2ED8A3C000EB2324 = {
+			isa = PBXGroup;
+			children = (
+				D57146A92ED8A3C000EB2324 /* NBA Tilastot */,
+				D57146A82ED8A3C000EB2324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D57146A82ED8A3C000EB2324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57146A72ED8A3C000EB2324 /* NBA Tilastot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D57146A92ED8A3C000EB2324 /* NBA Tilastot */ = {
+			isa = PBXGroup;
+			children = (
+				D57146BC2EDD651900EB2324 /* models */,
+				D57146AA2ED8A3C000EB2324 /* NBA_TilastotApp.swift */,
+				D57146AC2ED8A3C000EB2324 /* ContentView.swift */,
+				D59F7E062EDED1F4009A7D72 /* StatisticsView.swift */,
+				D57146B82ED9CC3000EB2324 /* WebApiRequest.swift */,
+				D57146AE2ED8A3C200EB2324 /* Assets.xcassets */,
+				D57146B02ED8A3C200EB2324 /* Preview Content */,
+			);
+			path = "NBA Tilastot";
+			sourceTree = "<group>";
+		};
+		D57146B02ED8A3C200EB2324 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D57146B12ED8A3C200EB2324 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D57146BC2EDD651900EB2324 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D57146BA2ED9D17D00EB2324 /* StatisticsDto.swift */,
+				D57146BD2EDD6E9A00EB2324 /* StatisticsViewModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D57146A62ED8A3C000EB2324 /* NBA Tilastot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57146B52ED8A3C200EB2324 /* Build configuration list for PBXNativeTarget "NBA Tilastot" */;
+			buildPhases = (
+				D57146A32ED8A3C000EB2324 /* Sources */,
+				D57146A42ED8A3C000EB2324 /* Frameworks */,
+				D57146A52ED8A3C000EB2324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NBA Tilastot";
+			productName = "NBA Tilastot";
+			productReference = D57146A72ED8A3C000EB2324 /* NBA Tilastot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D571469F2ED8A3C000EB2324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D57146A62ED8A3C000EB2324 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = D57146A22ED8A3C000EB2324 /* Build configuration list for PBXProject "NBA Tilastot" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D571469E2ED8A3C000EB2324;
+			productRefGroup = D57146A82ED8A3C000EB2324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D57146A62ED8A3C000EB2324 /* NBA Tilastot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D57146A52ED8A3C000EB2324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57146B22ED8A3C200EB2324 /* Preview Assets.xcassets in Resources */,
+				D57146AF2ED8A3C200EB2324 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D57146A32ED8A3C000EB2324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57146AD2ED8A3C000EB2324 /* ContentView.swift in Sources */,
+				D59F7E072EDED1F4009A7D72 /* StatisticsView.swift in Sources */,
+				D57146AB2ED8A3C000EB2324 /* NBA_TilastotApp.swift in Sources */,
+				D57146B92ED9CC3000EB2324 /* WebApiRequest.swift in Sources */,
+				D57146BE2EDD6E9A00EB2324 /* StatisticsViewModel.swift in Sources */,
+				D57146BB2ED9D17D00EB2324 /* StatisticsDto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D57146B32ED8A3C200EB2324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D57146B42ED8A3C200EB2324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D57146B62ED8A3C200EB2324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NBA Tilastot/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "h.NBA-Tilastot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D57146B72ED8A3C200EB2324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NBA Tilastot/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "h.NBA-Tilastot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D57146A22ED8A3C000EB2324 /* Build configuration list for PBXProject "NBA Tilastot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57146B32ED8A3C200EB2324 /* Debug */,
+				D57146B42ED8A3C200EB2324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57146B52ED8A3C200EB2324 /* Build configuration list for PBXNativeTarget "NBA Tilastot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57146B62ED8A3C200EB2324 /* Debug */,
+				D57146B72ED8A3C200EB2324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D571469F2ED8A3C000EB2324 /* Project object */;
+}
