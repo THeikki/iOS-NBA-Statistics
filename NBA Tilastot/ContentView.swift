@@ -141,6 +141,7 @@ struct ContentView: View {
                             .background(Color.gray)
                     }
                     .simultaneousGesture(TapGesture().onEnded {
+                        clearOldStatistics()
                         fetchSeasonStatistics()
                     })
                     .cornerRadius(30)
@@ -234,6 +235,25 @@ struct ContentView: View {
         default:
             return nil
         }
+    }
+    
+    func clearOldStatistics() {
+    statistics = StatisticsModel(
+            playerName: "",
+            position: "",
+            age: -1,
+            games: -1,
+            offensiveRb: -1,
+            defensiveRb: -1,
+            assists: -1,
+            steals: -1,
+            blocks: -1,
+            turnovers: -1,
+            personalFouls: -1,
+            points: -1,
+            team: "",
+            season: -1
+        )
     }
 }
 
